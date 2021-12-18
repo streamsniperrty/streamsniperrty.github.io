@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+html, body {
+    background-image: linear-gradient(-135deg, #8142ed, #434C5E);
+    /* Second Color: Bottom Left, First Color: Top Right */
+
+    margin: 0;
+    height: 100%;
+
+    padding-top: 25px;
+}
+
+.card {
+    border-style: solid;
+    border-radius: 10px;
+
+    margin: auto;
+
+    height: auto;
+    width: 500px;
+}
+
+.main {
+    position: relative;
+    background-color: #836ce0;
+
+    margin: auto;
+
+    width: 500px;
+    height: 300px;
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+.header {
+    background-image: url("Images/mountainsBackground.jpeg");
+    background-position: center;
+
+    width: auto;
+    height: 50px;
+
+    margin: auto;
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+.name {
+    margin: auto;
+    width: auto;
+    padding-top: 10px;
+
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+}
+
+.rick {
+    height: 60px;
+    width: auto;
+
+    position: relative;
+    bottom: 5px;
+    float: left;
+}
+
+.quote {
+    text-align: center;
+    margin: 5px 0px 3px 0px;
+
+    font-size: 14px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 0px 40px;
+    /* top, right, bottom, left */
+}
+
+.email {
+    font-size: 13px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+
+    position: absolute;
+    right: 35px;
+    bottom: 120px;
+}
+
+.phone {
+    font-size: 13px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+
+    position: absolute;
+    right: 47px;
+    bottom: 90px;
+}
+
+.aboutMe {
+    position: relative;
+    background-color: #b2bfd4;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+
+    margin: auto;
+    padding-top: 3px;
+
+    width: 500px;
+    height: 235px;
+}
+
+.socials {
+    position: relative;
+    background-color: white;
+    color: black;
+
+    margin: auto;
+
+    width: 500px;
+    height: 60px;
+
+    border-radius: 0px 0px 10px 10px;
+}
+
+.socials p {
+    font-size: 30px;
+    color: black;
+
+    margin: 0;
+    position: absolute;
+    left: 170px;
+    bottom: 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: black;
+}
