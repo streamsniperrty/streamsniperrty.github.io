@@ -19,6 +19,23 @@ html, body {
 
     height: auto;
     width: 500px;
+
+    animation-name: slide;
+    animation-duration: 1.25s;
+}
+
+@keyframes slide {
+    0% {
+        position: relative;
+        top: 25px;
+        opacity: 0;
+    }
+
+    100% {
+        position: relative;
+        top: 0px;
+        opacity: 1;
+    }
 }
 
 .main {
